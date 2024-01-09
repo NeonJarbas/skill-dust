@@ -14,7 +14,7 @@ setup(
     author_email='jarbasai@mailfence.com',
     license='Apache-2.0',
     package_dir={"skill_dust": ""},
-    package_data={'skill_dust': ['locale/*', 'ui/*']},
+    package_data={'skill_dust': ['locale/*', 'res/*']},
     packages=['skill_dust'],
     include_package_data=True,
     install_requires=["ovos_workshop>=0.0.5a1", "youtube_archivist~=0.0.3"],

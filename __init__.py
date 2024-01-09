@@ -13,7 +13,7 @@ class DustSkill(OVOSCommonPlaybackSkill):
 
     def __init__(self, *args, **kwargs):
         self.supported_media = [MediaType.SHORT_FILM]
-        self.skill_icon = join(dirname(__file__), "ui", "dust_icon.png")
+        self.skill_icon = join(dirname(__file__), "res", "dust_icon.png")
         self.archive = JsonStorageXDG("dust", subfolder="OCP")
         self.media_type_exceptions = {
             # url 2 MediaType , if not present its a short film
